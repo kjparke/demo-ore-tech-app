@@ -1,0 +1,146 @@
+.status-chip {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* .status-chip:hover {
+  cursor: pointer;
+  opacity: 0.8;
+} */
+
+.status-circle-container {
+  margin-right: 10px;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+}
+
+.status-circle {
+  border-radius: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.shop-section {
+  min-height: 125px;
+}
+
+.empty-bay {
+  border-radius: 5px;
+  background-color: var(--grey-light);
+  color: var(--grey-dark);
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  height: 52px;
+}
+
+.shop-details-modal {
+  width: 500px;
+}
+
+.asset-detail-input {
+  margin-left: "10px";
+  border: "none";
+  background: "transparent";
+}
+
+.notes-view {
+  height: 535px;
+  overflow-y: auto;
+  overflow-anchor: none;
+}
+
+.notes-view-add-disabled {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-anchor: auto;
+}
+
+.note-timestamp {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+.note {
+  font-size: smaller;
+  border: 1px solid #000;
+}
+
+.note.collapsed {
+  max-height: 5em; 
+  overflow: hidden;
+}
+
+.secondary-status-chip {
+  border-radius: 5px;
+  padding: 5px 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.tab-link {
+  color: var(--grey-dark);
+}
+
+.nav-tabs {
+  border-color: var(--primary);
+}
+
+.tab-link:hover, .tab-link:focus, .tab-link:active {
+  color: var(--primary);
+  opacity: 0.8;
+}
+
+.nav-item .nav-link.tab-link.active {
+  border-color: var(--primary);
+  border-bottom: solid 2px #fff;
+}
+
+.nav-item > .nav-link.active {
+  border-bottom: none;
+}
+
+.shop-bays {
+  margin-bottom: 70px;
+}
+
+.add-asset-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px; 
+  z-index: 10000;
+  padding: 10px 15px;
+  margin-bottom: 80px;
+  background-color: var(--blue-dark);; 
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.remove-tech-button-column {
+  width: 40px;
+}
+
+.shop-chip-icon {
+  height: 16px;
+  color: white;
+  margin-right: 4px
+}
+
+.text-left-align {
+  text-align: left;
+}
+
+.section-container {
+  border-radius: 5px;
+  background-color: var(--grey-light);
+  padding-top: 10px;
+  margin: 5px 0px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,146 @@
+:root {
+  --primary: #354D75;
+  --white: #ffffff;
+
+  --blue: #577DBE;
+  --blue-dark: #44649B;
+  --blue-darker: #354D75;
+  --blue-light: #7098DC;
+  --blue-lighter: #A6C5FA;
+
+  --grey: #C0BEBE;
+  --grey-dark: #6F6E6E;
+  --grey-darker: #454545;
+  --grey-light: #E6E6E6;
+  --grey-lighter: #F6F6F6;
+
+  --status-operational:#5AB85EB2;
+  --status-down-unscheduled:#cd3b3ba7;
+  --status-down-scheduled: #73a3cfb2;
+  --status-down-waiting: #E07F39B2;
+  --status-noh:  #D9D9D9;
+  --status-delay: #b8e4bbb2;
+  --status-pending: #d2c213;
+
+  --error: #B57672;
+  --error-light: #EBCCCA;
+  --warning: #DFD364;
+  --warning-light: #F3ECA8;
+  --success: #81BA8A;
+  --success-light: #CAF9D1;
+
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #A6C5FA, #fff);
+  color: var(--grey-darker);
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  border-color: var(--white);
+}
+
+.subtitle {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-smaller {
+  font-size: 12px;;
+}
+
+.status-operational {
+  background-color: var(--status-operational);
+}
+
+.status-down-unscheduled {
+  background-color: var(--status-down-unscheduled);
+}
+
+.status-down-scheduled {
+  background-color: var(--status-down-scheduled);
+}
+
+.status-down-waiting {
+  background-color: var(--status-down-waiting);
+}
+
+.status-noh {
+  background-color: var(--status-noh);
+}
+
+.status-delay {
+  background-color: var(--status-delay);
+}
+
+.status-pending {
+  background-color: var(--status-pending);
+}
+
+.btn {
+  min-width: 100px;
+}
+
+.btn-sm {
+  min-width: 0px;
+}
+
+.btn-primary {
+  background-color: var(--blue-dark);
+  border: 1px solid var(--blue-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-dark);
+  border: 1px solid var(--blue-dark);
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  background-color: var(--blue-light);
+  border: 1px solid var(--blue-light);
+}
+
+.btn-secondary:hover {
+  background-color: var(--blue-light);
+  border: 1px solid var(--blue-light);
+  opacity: 0.8;
+}
+
+.btn-inverse {
+  background-color: var(--white);
+  color: var(--blue-dark);
+  border: 1px solid var(--blue-dark);
+}
+
+.btn-inverse:hover {
+  background-color: var(--grey-lighter);
+  border: 1px solid var(--blue-dark);
+  color: var(--blue-dark);
+  opacity: 0.8;
+}
+
+.form-check-label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-check-input {
+  border-color: var(--grey);
+}

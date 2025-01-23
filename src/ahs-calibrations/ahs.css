@@ -1,0 +1,17 @@
+.ahs-calibration-view{
+    margin-bottom: 150px;
+}
+
+.rotate {
+    transform: rotate(-50deg);
+    transform-origin: left bottom;
+    white-space: nowrap;
+    height: 150px;
+    vertical-align: bottom;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.fixed-width {
+    width: 7%; 
+}

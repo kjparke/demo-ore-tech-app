@@ -1,0 +1,18 @@
+.red-square-icon {
+	color: white; 
+	height: 20px;
+	width: 20px;
+	border: 1px solid black;
+	border-radius: 5%;
+	background-color: red; 
+}
+
+.ahs-calibration-view {
+	margin-bottom: 120px;
+}
+
+.read-only-notes {
+	max-height: 150px;
+	overflow-y: auto;
+	text-align: justify;
+}

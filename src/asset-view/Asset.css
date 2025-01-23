@@ -1,0 +1,86 @@
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+ }
+ 
+.table-container {
+  padding: 15px;
+}
+
+.table-dark {
+  --bs-table-bg: var(--blue-darker);
+  --bs-table-border-color: var(--blue-darker);
+}
+
+.table-card {
+  margin-bottom: 120px;
+}
+
+.plus-button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0px 10px;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.plus-button:hover {
+  background-color: var(--blue-darker);
+}
+
+.status-text {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--blue-darker);
+}
+
+.status-text:hover {
+  background-color: lightgray;
+}
+
+.no-notes {
+  color: #bbb; 
+}
+
+.asset-view-logo {
+  height: 25px;
+  color: white;
+}
+
+.btn-filter, 
+.export-button {
+  background-color: var(--white);
+  border-color: var(--blue-darker);
+  color: var(--blue-darker);
+  padding: 5px;
+  font-size: 12px;
+}
+
+.export-button {
+  background-color: var(--blue-darker);
+  color: white;
+}
+
+.btn-filter:hover, .btn-filter:active {
+  background-color: var(--grey-lighter);
+  border-color: var(--blue-dark);
+  color: var(--blue-dark);
+}
+
+.clear-filter {
+  width: 50px;
+  min-width: 50px;
+}
+
+.filter-dropdown {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.note-section-modal {
+  height: 80%;
+}

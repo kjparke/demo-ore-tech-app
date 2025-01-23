@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--blue-dark);
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer-divider {
+  border-top: 1px solid var(--grey-light);
+  margin: 10px;
+}
+
+.status-icon {
+  border-radius: 4px;
+  text-align: center;
+  border: solid 1px var(--grey-light);
+  padding: 3px 10px;
+}

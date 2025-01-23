@@ -1,0 +1,19 @@
+.physical-availability {
+  color: var(--white);
+  background-color: var(--blue-darker);
+  width: 100px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 4px;
+  text-align: center;
+  height: 35px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.pa-container {
+  background-color: var(--blue-light);
+  color: var(--white);
+  padding: 0px 0px 0px 15px;
+  border-radius: 10px;
+  margin-right: 15px;
+}

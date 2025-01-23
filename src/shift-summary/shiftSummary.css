@@ -1,0 +1,39 @@
+.shift-summary-view {
+  margin-bottom: 120px;
+}
+
+.shift-summary-table-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.status-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#shiftDate {
+  width: 150px;
+}
+
+.hour-col {
+  width: 3.25%;
+}
+
+.table-container {
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.shift-summary-table-container {
+  height: 632px;
+  overflow-y: auto;
+}
