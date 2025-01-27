@@ -26,16 +26,6 @@ export default function ShopView() {
     };
     fetchLastUpdated();
     fetchDownAssets();
-
-    webSocketService.connect();
-    webSocketService.setOnMessageCallback(() => {
-      fetchDownAssets();
-      fetchLastUpdated();
-    });
-
-    return () => {
-      webSocketService.disconnect();
-    };
   }, [fetchDownAssets, filterBy]);
 
   return (
