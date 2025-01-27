@@ -1,5 +1,4 @@
 import { Navigate, Route, Routes as ReactRoutes } from "react-router-dom";
-import { useAuth } from "../auth/AuthContext";
 import Login from "../auth/Login";
 import ShopView from "../shop-view/ShopView";
 import AssetView from "../asset-view/AssetView";
@@ -10,7 +9,7 @@ import ShiftSummaryView from "../shift-summary/ShiftSummaryView";
 import ReportsView from "../reports/ReportsView";
 
 const Routes = () => {
-  const { token } = useAuth();
+  const token = true;
 
   return (
     <ReactRoutes>

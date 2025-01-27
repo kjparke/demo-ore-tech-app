@@ -48,7 +48,7 @@ const {isModalOpen} = useModal();
         <NoteCard 
           key={index}
           createdAt={formatDate(note.createdAt, DateFormat.MONTH_DAY_YEAR_HOUR)}
-          user={note.userId ? `${note.userId.firstName} ${note.userId.lastName}` : "Unknown user"}
+          user="John Appleseed"
           text={note.text}
         />
       ))}

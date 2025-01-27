@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useMemo, useEffect } from 'react';
 import axios from 'axios';
+import { mockUser } from '../constants/MockUser';
 
 export type AuthUser = {
   id: string
@@ -35,6 +36,11 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const setToken = (newToken: string | null) => {
     setToken_(newToken);
   };
+
+  useEffect(() => {
+    setUser(mockUser);
+    setToken(mockUser.accessToken);
+  }, [])
 
   useEffect(() => {
     if (token) {

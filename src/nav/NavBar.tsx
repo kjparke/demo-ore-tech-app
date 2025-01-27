@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../images/ore-tech-logo.png";
 import "./Nav.css";
 import { NavLink } from "react-router-dom";
-import AccountMenu from "./AccountMenu";
 import AddAsset from "./AddAsset";
 
 
@@ -51,25 +50,8 @@ export default function NavBar() {
                 History
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                  to="/ahs-calibrations/"
-                  className="nav-link"
-                >
-                  AHS Calibrations
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                  to="/reports/"
-                  className="nav-link"
-                >
-                  Reports
-              </NavLink>
-            </li>
           </ul>
           <AddAsset />
-          <AccountMenu />
         </div>
       </div>
     </nav>
