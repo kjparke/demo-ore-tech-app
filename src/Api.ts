@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://demo-ore-tech-api.vercel.app/api",
+  baseURL: "https://demo-ore-tech-hj7uh8q4s-kevin-parkes-projects.vercel.app/api",
   headers: {"Content-Type": "application/json"}
 });
 
