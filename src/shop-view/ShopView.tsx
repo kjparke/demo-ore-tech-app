@@ -3,7 +3,6 @@ import "./Shop.css";
 import ShopSection from "./ShopSection";
 import Availability from "../availability/Availability";
 import ShopBays from "./shop-bays/ShopBays";
-import { webSocketService } from "../WebSocketService";
 import { LOCATIONS } from "../constants/GeneralConstants";
 import LastUpdated from "../components/LastUpdated";
 import API from "../Api";
