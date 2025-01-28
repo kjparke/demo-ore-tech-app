@@ -65,7 +65,7 @@ export default function ShopBayTabs() {
           className="nav-link tab-link" 
           id="laydown-yard-tab" 
           data-bs-toggle="tab" 
-          data-bs-target="#highmont" 
+          data-bs-target="#laydown-yard" 
           type="button" 
           role="tab"
         >
