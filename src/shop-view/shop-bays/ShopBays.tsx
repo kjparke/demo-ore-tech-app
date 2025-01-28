@@ -27,7 +27,7 @@ export default function ShopBays() {
           <div className="tab-pane fade" id="weld" role="tabpanel" >
             <WeldBays />
           </div>
-          <div className="tab-pane fade" id="layddown-yard" role="tabpanel" >
+          <div className="tab-pane fade" id="laydown-yard" role="tabpanel" >
             <LaydownYardBays />
           </div>
           <div className="tab-pane fade" id="off-site" role="tabpanel" >
