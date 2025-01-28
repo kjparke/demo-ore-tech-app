@@ -63,13 +63,13 @@ export default function ShopBayTabs() {
       <li className="nav-item" role="presentation">
         <button 
           className="nav-link tab-link" 
-          id="highmont-tab" 
+          id="laydown-yard-tab" 
           data-bs-toggle="tab" 
           data-bs-target="#highmont" 
           type="button" 
           role="tab"
         >
-          Highmont ({getCountOfAssetsInShop(LOCATIONS.HIGHMONT_SHOP)})
+          Laydown Yard ({getCountOfAssetsInShop(LOCATIONS.LAYDOWN_YARD)})
         </button>
       </li>
       <li className="nav-item" role="presentation">

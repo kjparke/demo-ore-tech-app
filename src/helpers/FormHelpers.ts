@@ -9,8 +9,8 @@ export const getBayOptions = (selectedLocation: string): string[] => {
     case LOCATIONS.AUXILIARY_SHOP:
       bayNumbers = BAY_NUMBERS.AUX_SHOP_BAYS;
       break;
-    case LOCATIONS.HIGHMONT_SHOP:
-      bayNumbers = BAY_NUMBERS.HIGHMONT_BAYS;
+    case LOCATIONS.LAYDOWN_YARD:
+      bayNumbers = BAY_NUMBERS.LAYDOWN_YARD_BAYS;
       break;
     case LOCATIONS.WELD:
       bayNumbers = BAY_NUMBERS.WELD_BAYS;

@@ -1,5 +1,5 @@
 export enum BAY_GROUPS {
-  HIGHMONT = "Highmont",
+  LAYDOWN_YARD = "Laydown Yard",
   AUXILIARY = "Auxiliary",
   TRUCK = "Truck",
   WELD = "Weld",
@@ -10,7 +10,7 @@ export enum BAY_GROUPS {
 export const BAY_NUMBERS = {
   TRUCK_SHOP_BAYS: [11, 18, 21, 24, 10, 19, 22, 25, 9, 20, 23],
   AUX_SHOP_BAYS: [8, 4, 7, 3, 6, 2, 5],
-  HIGHMONT_BAYS: [1, 2, 3, 4],
+  LAYDOWN_YARD_BAYS: [1, 2, 3, 4],
   WELD_BAYS: [16, 14, 15, 13],
   APRON_BAYS: [
     2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 18, 19, 20, 21, 22, 23, 24, 25,
@@ -38,7 +38,7 @@ export enum LOCATIONS {
   DOWN_IN_FIELD = "Down In Field",
   TRUCK_SHOP = "Truck Shop",
   AUXILIARY_SHOP = "Auxiliary Shop",
-  HIGHMONT_SHOP = "Highmont Shop",
+  LAYDOWN_YARD = "Laydown Yard",
   WELD = "Weld",
   APRONS = "Aprons",
   OFF_SITE = "Off-Site", 

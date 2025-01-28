@@ -2,7 +2,7 @@ import React from "react";
 import ShopBayTabs from "./ShopBayTabs";
 import TruckShopBays from "./TruckShopBays";
 import AuxShopBays from "./AuxShopBays";
-import HighmontShopBays from "./HighmontShopBays";
+import LaydownYardBays from "./LaydownYard";
 import WeldBays from "./WeldBays";
 import ApronBays from "./ApronBays";
 import OffSiteBays from "./Off-SiteBays";
@@ -27,8 +27,8 @@ export default function ShopBays() {
           <div className="tab-pane fade" id="weld" role="tabpanel" >
             <WeldBays />
           </div>
-          <div className="tab-pane fade" id="highmont" role="tabpanel" >
-            <HighmontShopBays />
+          <div className="tab-pane fade" id="layddown-yard" role="tabpanel" >
+            <LaydownYardBays />
           </div>
           <div className="tab-pane fade" id="off-site" role="tabpanel" >
             <OffSiteBays />
